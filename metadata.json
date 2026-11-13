@@ -1,0 +1,8 @@
+{
+  "name": "AI转盘生成器PRO",
+  "description": "A professional tool to create custom high-resolution roulette wheels with transparent backgrounds. Customize colors, fonts, and styles for professional use.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

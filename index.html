@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI转盘生成器PRO</title>
+  <meta name="description" content="A professional tool to create custom high-resolution roulette wheels with transparent backgrounds. Customize colors, fonts, and styles for professional use.">
+  <meta property="og:title" content="AI转盘生成器PRO">
+  <meta property="og:description" content="A professional tool to create custom high-resolution roulette wheels with transparent backgrounds. Customize colors, fonts, and styles for professional use.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('wheel-studio-theme');
+        if (saved === 'dark') {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body class="bg-[#F5F5F7] text-[#1D1D1F] dark:bg-[#0B0B0F] dark:text-[#F5F5F7] antialiased selection:bg-[#0071E3]/20 selection:text-[#0071E3]">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
